@@ -181,16 +181,7 @@ const ServiceInfoForm = ({ formData, setFormData, serviceCategories }) => (
       />
     </FormField>
 
-    {/* <FormField label="Zone d'intervention" required>
-      <input 
-        type="text"
-        className={styles.input}
-        value={formData.serviceArea}
-        onChange={(e) => setFormData({...formData, serviceArea: e.target.value})}
-        required
-        placeholder="Ex: Rayon de 30km autour de Paris"
-      />
-    </FormField> */}
+   {/* test */}
   </div>
 );
 
@@ -221,8 +212,9 @@ const DocumentsForm = ({ formData, setFormData, handleFileUpload }) => (
         />
         <span className="text-sm text-gray-600">
           J'accepte les conditions générales du service
+        
         </span>
-      </label>
+      </label>/
     </div>
   </div>
 );
