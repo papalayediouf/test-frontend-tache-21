@@ -1,7 +1,6 @@
 import  { useState } from 'react';
 import { StepIndicator, FormComponents } from './Component/FormComponents';
 import { serviceCategories, initialFormData, commonStyles as styles } from './Component/Constants';
-// import professionel from '../images/professionel.png'
 
 const Inscription = () => {
   const [step, setStep] = useState(1);

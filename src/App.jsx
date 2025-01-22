@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Communautaire from "./Pages/Communautaire.jsx";
 import Client from "./Pages/Client.jsx";
 import Connection from "./Authentification/PagesConnexion/Connection.jsx";
-import Inscription from "./Authentification/InscriptionPrestataire/Inscription.jsx";
+// import Inscription from "./Authentification/InscriptionPrestataire/Inscription.jsx";
 import MotDePasseOublie from "./Authentification/PagesPassword/MotDePasseOublie.jsx";
 import Signup from "./Authentification/InscriptionClient/Signup.jsx";
 
